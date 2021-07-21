@@ -12,4 +12,4 @@ all:
 	${CC} *.o  ${FLAGS} ${OUTFLAGS}factorymethod
 
 clean:
-	rm *
+	rm *.o
