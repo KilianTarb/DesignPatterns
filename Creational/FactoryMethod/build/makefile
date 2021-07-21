@@ -9,7 +9,7 @@ all:
 	${CC} -c ../lib/Apple.cpp 			${INCLUDEFLAGS} ${FLAGS} ${OUTFLAGS}Apple.o
 	${CC} -c ../lib/Orange.cpp 			${INCLUDEFLAGS} ${FLAGS} ${OUTFLAGS}Orange.o
 	${CC} -c ../main.cpp 				${INCLUDEFLAGS} ${FLAGS} ${OUTFLAGS}main.o
-	${CC} *  ${FLAGS} ${OUTFLAGS}factorymethod.out
+	${CC} *.o  ${FLAGS} ${OUTFLAGS}factorymethod
 
 clean:
 	rm *
